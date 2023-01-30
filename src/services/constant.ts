@@ -7,5 +7,5 @@ import rockImage from "@/assets/images/icon-rock.svg";
  * paper + scissors | scissors win
  * scissors + rock | rock win
  */
-export const figures: String[] = ["rock", "paper", "scissors"];
-export const imageSrc: String[] = [paperImage, rockImage, scissorsImage];
+export const figures: string[] = ["rock", "paper", "scissors"];
+export const imageSrc: string[] = [rockImage, paperImage, scissorsImage];

@@ -4,7 +4,7 @@ import { figures } from "@/services/constant";
 
 const router = useRouter();
 
-const handleResult = (picked: String): void => {
+const handleResult = (picked: string): void => {
   const player = figures.indexOf(picked);
   router.push({ path: "/result", query: { player } });
 };
