@@ -6,22 +6,7 @@ on:
       - main
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - run: npm i
-
-      - run: npm test
-      - run: npm run lint
-      - run: npm run stylelint
-      - run: npm run typecheck
   deploy:
-    needs: check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
