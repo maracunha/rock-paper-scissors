@@ -3,26 +3,6 @@
 Just a simple game to test how to implemented with Vue 3 and Vite
 
 
-## Project Setup
+## Live test
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Here you can access the [RPS](https://rock-paper-scissors-two-lyart.vercel.app/) to test and see it working.
